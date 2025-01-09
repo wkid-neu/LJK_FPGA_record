@@ -25,9 +25,11 @@ lab2（无需设置引脚）
 
 （2）basic： maximum link speed 8.0
 
- (3)misc: user interrupt :16
+ (3) misc: user interrupt :16
 
- （4）Bram controller 设置： AXI Data width设置为512bit，和XDMA保持一致，AXI 带宽512bit ,深度8192 Bram容量： 512*8192=4194304 bit = 524288 B = 512KB
+ (4) Bram controller 设置： AXI Data width设置为512bit，和XDMA保持一致，AXI 带宽512bit ,深度8192 Bram容量： 512*8192=4194304 bit = 524288 B = 512KB
+
+ (5) 注意sysclk clkgt 和rstn这三个信号，auto就好了，会生成一个utility buffer
 
 
 2.测试驱动可以和lab1公用（本质上都是读写h2c、c2h），有两种测试驱动：
