@@ -12,6 +12,7 @@ https://github.com/alexforencich/verilog-pcie/blob/master/example/VCU118/fpga/fp
 
 lab2（无需设置引脚）
 1.参考陈师兄block design ，去掉和ip核相关的电路，只保留XDMA和DDR4部分，ip核生成顶层文件后无需再添加新的顶层文件，直接生成比特流即可使用（记得烧进去后重启）
+XDMip核设置：Board下，RST： pcie-perstn pcie—7x：pci express x16
 2.测试驱动可以和lab1公用（本质上都是读写h2c、c2h），有两种测试驱动：
 （1）参考lab1里的
 https://github.com/WangXuan95/Xilinx-FPGA-PCIe-XDMA-Tutorial/blob/main/doc/run_software_xdma_bram.md
