@@ -58,6 +58,9 @@ Bram controller 设置： AXI Data width设置为512bit，和XDMA保持一致，
 
 7.python读写测试
 
+![image](https://github.com/user-attachments/assets/96f7c791-4f64-4740-a3e2-a4b2fa48edd9)
+
+
 
 // ***********          以下的是旧版本    ****************//
 
