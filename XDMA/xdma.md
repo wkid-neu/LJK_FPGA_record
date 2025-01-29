@@ -6,6 +6,8 @@ lab1：从PC向FPGA中的Bram读写实验（本实验室VCU118适配）
 
 参考内容： https://github.com/WangXuan95/Xilinx-FPGA-PCIe-XDMA-Tutorial/tree/main
 
+适配VCU118文件：https://github.com/wkid-neu/LJK_FPGA_record/blob/master/XDMA/Lab1_srcs_XDMA_Bram.zip
+
 1.创建blockdesign
 
 2.添加XDMAIP核
